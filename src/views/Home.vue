@@ -46,7 +46,6 @@ export default {
   computed: {
     // ...mapState({ fuck: 'cards' })
     ...mapState(['cards'])
-
   },
   methods: {
     ...mapActions(['createCard']),
